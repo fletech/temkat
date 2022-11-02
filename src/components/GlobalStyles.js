@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Saira", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #333333
 //font-family: 'Concert One', monospace;
 //font-family: "Noto Sans KR", sans-serif;
@@ -17,7 +17,8 @@ export const GlobalStyle = createGlobalStyle`
 
 :root {
   --heading : #6B6E7F;
-  --highlight: #28CDF1;
+  --highlight: rgb(67,196,227);
+  /* --highlight: #43C4E3; */
   --text-light: #898BA0;
   --text-dark: #404040;
   --white: #FBFBFB;

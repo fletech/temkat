@@ -22,6 +22,7 @@ const Main = () => {
       <ContactStyled>
         <div className="logo-container">
           <img src={logo} alt="" />
+          <h2>Cleaning Services</h2>
         </div>
         <div className="contact-container">
           <div className="contact phone">
@@ -88,6 +89,7 @@ const SectionStyled = styled.section`
     }
     span.span-heading {
       font-size: 1.4rem;
+      font-weight: 500;
       color: var(--highlight);
     }
     img {
@@ -105,12 +107,26 @@ const ContactStyled = styled.section`
     width: 100%;
     display: grid;
     place-items: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
     img {
       width: 40%;
       @media (max-width: 700px) {
         width: 90%;
+      }
+    }
+    h2{
+      width:40%;
+      text-align:center;
+      font-weight: 500;
+    color: var(--highlight);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:2.5rem;
+    margin-top: 1rem;
+    @media (max-width: 700px) {
+        width: 90%;
+        font-size:2rem;
       }
     }
   }
@@ -127,7 +143,7 @@ const ContactStyled = styled.section`
 
       p,
       a {
-        font-family: var(--roboto);
+    
         font-size: 1.4rem;
         font-weight: 500;
         color: var(--text-dark);
